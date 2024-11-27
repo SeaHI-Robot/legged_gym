@@ -31,8 +31,8 @@
 # Modified by SiyuanWang, 2024
 
 from legged_gym import LEGGED_GYM_ROOT_DIR, LEGGED_GYM_ENVS_DIR
-#  from legged_gym.envs.a1.a1_config import A1RoughCfg, A1RoughCfgPPO
-#  from legged_gym.envs.a1_blind.a1_blind_config import A1BlindRoughCfg, A1BlindRoughCfgPPO
+from legged_gym.envs.a1.a1_config import A1RoughCfg, A1RoughCfgPPO
+from legged_gym.envs.a1_blind.a1_blind_config import A1BlindRoughCfg, A1BlindRoughCfgPPO
 from .base.legged_robot import LeggedRobot
 from .anymal_c.anymal import Anymal
 from .anymal_c.mixed_terrains.anymal_c_rough_config import AnymalCRoughCfg, AnymalCRoughCfgPPO
